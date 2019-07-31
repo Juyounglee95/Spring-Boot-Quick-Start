@@ -4,4 +4,32 @@
   <artifactId>course-api</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Java Brains Course API</name>
+  
+  
+  
+  <parent> <!--declaring that our project is a child of this parent projects -->
+  		<groupId>org.springframework.boot</groupId>
+  		<artifactId>spring-boot-starter-parent</artifactId> <!-- this contains that opinionated set of maven configurations so our project're inheriting all of them-->
+  		<version>1.4.2.RELEASE</version>
+  </parent>
+  
+  <!-- import dependencies -->
+  <dependencies>
+  		<dependency>
+  			<groupId>org.springframework.boot</groupId> 
+  			<artifactId>spring-boot-starter-web</artifactId> <!-- pull all of jar file for web application  --> 
+  		</dependency>
+  		
+  		<dependency> <!-- if your JDK version >= 9, then add this dependency -->
+  				<groupId>javax.xml.bind</groupId>
+ 				<artifactId>jaxb-api</artifactId>
+  				<version>2.3.0</version>
+		</dependency> 
+  </dependencies>
+  
+  <properties>
+  		<java.version>1.8</java.version> <!--change java version -->
+  </properties>
+
+
 </project>
