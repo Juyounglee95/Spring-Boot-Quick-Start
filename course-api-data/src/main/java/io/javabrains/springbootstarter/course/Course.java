@@ -2,6 +2,9 @@ package io.javabrains.springbootstarter.course;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+
+import org.hibernate.annotations.ManyToAny;
 
 import io.javabrains.springbootstarter.topic.Topic;
 
@@ -15,7 +18,8 @@ public class Course { //entity class
 	private String name;
 	private String description;
 	
-	private Topic topic;
+	@ManyToOne //Course and topic have 'Many to One' relationship
+	private Topic topic;  
 	
 	
 	
