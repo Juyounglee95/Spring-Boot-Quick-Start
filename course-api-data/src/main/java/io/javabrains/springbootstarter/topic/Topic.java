@@ -1,8 +1,15 @@
 package io.javabrains.springbootstarter.topic;
 
-public class Topic {
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class Topic { //entity class
 	
-	private String id;
+	//each one of these member variables should go as colums in that DB, instance -> rows
+	
+	@Id //mark primary key
+	private String id; 
 	private String name;
 	private String description;
 	
