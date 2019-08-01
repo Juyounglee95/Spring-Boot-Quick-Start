@@ -1,6 +1,6 @@
 ----------------------------------------------------------------
-Thu Aug 01 15:21:13 KST 2019:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-016c-4bd6-f163-00000fab6150 
+Thu Aug 01 15:33:21 KST 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-016c-4be2-0ce8-00000fa6ce98 
 on database directory memory:C:\Users\10190\git\Spring-Boot-Quick-Start\course-api-data\testdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2437c6dc 
 Loaded from file:/C:/Users/10190/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
 java.vendor=Oracle Corporation
